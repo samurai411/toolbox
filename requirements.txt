@@ -1,0 +1,6 @@
+inquirer==3.2.4
+pymetasploit3==1.0.6
+python_nmap==0.7.1
+Requests==2.31.0
+rich==13.7.1
+weasyprint==62.1
