@@ -6,19 +6,19 @@ Cet outil a été conçu pour faciliter les tests de pénétration en automatisa
 
 ## Installation ⚙️
 
-Clonez ce dépôt sur votre machine locale :
+Clonez ce dépôt sur votre machine locale:
 ``` bash
 git clone https://github.com/samurai411/toolbox.git
 ```
 
 ##### Debian 🍥
 
-Installez les paquets nmap, netcat et procps.
+Installez les paquets nmap, netcat et procps:
 ``` sh
 sudo apt install nmap procps netcat-traditional python3-pip libpango-1.0-0 libpangoft2-1.0-0 -y
 ```
 
-Installez les dépendances pour Metasploit.
+Installez les dépendances pour Metasploit:
 ``` sh
 sudo apt install gpgv2 autoconf bison build-essential postgresql libaprutil1 libgmp3-dev libpcap-dev openssl libpq-dev libreadline6-dev libsqlite3-dev libssl-dev locate libsvn1 libtool libxml2 libxml2-dev libxslt-dev wget libyaml-dev ncurses-dev  postgresql-contrib xsel zlib1g zlib1g-dev curl -y
 ```
@@ -28,22 +28,22 @@ Entrez la commande suivante pour ajouter le dépôt Metasploit and installer le 
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 ```
 
-Initial setup de Metasploit.
+Initial setup de Metasploit:
 ``` sh
 msfconsole
 ```
 ##### Arch Linux
 
-Installez les différents paquets dont Metasploit.
+Installez les différents paquets dont Metasploit:
 ``` sh
 sudo pacman -S metasploit nmap procps-ng netcat python3-pip
 ```
-Initial setup de Metasploit.
+Initial setup de Metasploit:
 ``` sh
 msfconsole
 ```
 
-Ensuite installez les dépendances Python en exécutant la commande suivante dans le répertoire du projet :
+Ensuite installez les dépendances Python en exécutant la commande suivante dans le répertoire du projet:
 ``` bash
 pip install -r requirements.txt
 ```
