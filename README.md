@@ -2,6 +2,8 @@
 
 Cet outil a été conçu pour faciliter les tests de pénétration en automatisant certaines tâches courantes et en fournissant une interface conviviale pour l'exploitation des vulnérabilités.
 
+La toolbox a été testé sur des environnements de test (conteneurs Vulnhub et la machine Metasploitable 2 par exemple).
+
 ![](https://github.com/samurai411/toolbox/blob/main/exploit.gif)
 
 ## Installation ⚙️
