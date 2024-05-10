@@ -92,6 +92,9 @@ def main():
 
                 elif service['name'] == 'http' and 'Jetty(11.0.14)' in service.get('http_server_header', ''):
                     cve_list.append(f"{host} est vulnérable à la CVE-2023-38646")
+        
+        if cve_count == 0:
+            print(f"[bold red][!][/bold red] Aucun hôte vulnérable n'a été trouvé dans le sous-réseau [bold red]{args.subnet}[/bold red] 🌐")
 
         if cve_count > 0:
             cve_question = inquirer.List('cve', message="Sélectionnez la CVE à exploiter", choices=cve_list)
