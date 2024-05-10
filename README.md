@@ -66,7 +66,7 @@ options:
   -p LPORT, --lport LPORT
                         Port local pour le reverse shell
   -P MSF_PORT, --msf_port MSF_PORT
-                        Port MetasploCréation d'une vidéo GIFit RPC
+                        Port Metasploit RPC
   -mp MSF_PASS, --msf_pass MSF_PASS
                         Pass for Metasploit RPC
   -e, --exploit         Exploiter les CVEs
